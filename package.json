@@ -1,15 +1,20 @@
 {
+  "name": "zeko-rent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "next": "^13.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-react": "^7.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0",
-    "eslint-config-next": "^13.0.0",
-    "@babel/eslint-parser": "^7.0.0"
-  },
-  "scripts": {
-    "build": "next build && next export"
+    "eslint-config-next": "^13.0.0"
   }
 }

@@ -6,10 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Add these lines
-  distDir: "build",
-  basePath: "",
-  assetPrefix: "",
+  distDir: "out",
 };
 
 module.exports = nextConfig;
